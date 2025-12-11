@@ -17,8 +17,4 @@ public class Car {
         System.out.println("El vehicle està accelerant");
     }
 
-    @Override
-    public String toString() {
-        return "Car{" + "brand=" + brand + ", model=" + model + ", power=" + power + '}';
-    }
 }
