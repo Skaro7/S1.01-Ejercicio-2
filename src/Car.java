@@ -12,12 +12,14 @@ public class Car {
 
     //3.1
     public static void brake(){
-        System.out.println("El vehicle està frenant");
+        System.out.println("Braking vehicle");
+        System.out.println("Braking called on brand:" + brand + "model: " + model);
     }
 
     //3.2
     public void accelerate(){
-        System.out.println("El vehicle està accelerant");
+        System.out.println("Accelarating vehicle");
+        System.out.println("Accelerating on brand:" + brand + "model: " + model + "power: " + power);
     }
 
 }
